@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import bams from './bams.jpg';
 import './App.css';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
 function App() {
   return (

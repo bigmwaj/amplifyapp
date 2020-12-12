@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Bigmwaj wishes Happy Cameroon Independance Day from AWS</h1>
+        <h1>Bigmwaj wishes you <b>Happy Cameroon Independance Day</b> from AWS</h1>
         <p>
-        	<img src={bams} className="bams-proud" alt="Bams proud" />
+        	<img src={bams} style="width: 100px;" className="bams-proud" alt="Bams proud" />
         	<br/>Be proud of who we are ...
         </p>
       </header>

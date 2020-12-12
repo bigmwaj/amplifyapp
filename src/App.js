@@ -11,7 +11,7 @@ function App() {
         <h1>Bigmwaj wishes you <b>Happy Cameroon Independance Day</b> from AWS</h1>
         <p>
         	<img src={bams} width="100px" className="bams-proud" alt="Bams proud" />
-        	<br/>Be proud of who we are ...
+        	<br/>Be proud of who we are !!!
         </p>
       </header>
     </div>

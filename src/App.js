@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Bigmwaj wishes you <b>Happy Cameroon Independance Day</b> from AWS</h1>
         <p>
-        	<img src={bams} style="width: 100px;" className="bams-proud" alt="Bams proud" />
+        	<img src={bams} width="100px" className="bams-proud" alt="Bams proud" />
         	<br/>Be proud of who we are ...
         </p>
       </header>

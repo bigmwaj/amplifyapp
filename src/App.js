@@ -72,20 +72,25 @@ function App() {
 	      onChange={onChange}
 	    />
       <button onClick={createNote}>Create Note</button>
-      <div style={{marginBottom: 30}}>
-      {
-    	  notes.map(note => (
-    	    <div key={note.id || note.name}>
-    	      <h2>{note.name}</h2>
-    	      <p>{note.description}</p>
-    	      <button onClick={() => deleteNote(note)}>Delete note</button>
-    	      {
-    	        note.image && <img src={note.image} style={{width: 400}} />
-    	      }
-    	    </div>
-    	  ))
-    	}
-      </div>
+      
+      <table>
+	  	<tbody>
+	  		{
+  			notes.map(note => (
+  				<tr key={note.id || note.name}>
+  		  			<td>{note.name}</td>
+  		  			<td>{note.description}</td>
+  		  			<td><button onClick={() => deleteNote(note)}>Delete note</button></td>
+  		  			<td>
+	  		  		 	{
+	  		  		 		note.image && <img src={note.image} style={{width: 400}} />
+	  		  		 	}
+  		  			</td>
+  		  		</tr>
+	    	  ))
+	    	}
+	  	</tbody>
+	  </table>
       <AmplifySignOut />
     </div>
   );

@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+export default withAuthenticator(App);
